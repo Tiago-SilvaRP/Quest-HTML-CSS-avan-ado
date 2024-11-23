@@ -7,3 +7,5 @@ O font awesome foi inserido por meio de pasta ao invés de inserir o link com UR
 
 - HTML
 - CSS
+
+[<img src="./src/images/Animação.gif" alt="gif demonstração de ações">]
