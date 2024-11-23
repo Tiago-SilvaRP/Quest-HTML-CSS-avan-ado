@@ -1,0 +1,103 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+    background: url(../images/bg-desktop.svg), hsl(257, 40%, 49%);
+}
+
+.logo {
+    margin: 53px 68px;
+}
+
+.logo img {
+    height: 53px;
+    margin-bottom: 29px;
+}
+
+.container {
+    display: flex;
+    margin: 10px 0 0 73px;
+}
+
+.container .ilustracao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px 0 0 28px;
+    color: #fff;
+}
+
+.container .ilustracao h2 {
+    font-family: "Poppins", sans-serif;
+    padding: 20px 25px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.container .ilustracao p {
+    padding: 0px 0 23px 25px;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.container .ilustracao .botao {
+    display: flex;
+    align-self: flex-start;
+}
+
+.botao .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 58px;
+    margin-left: 25px;
+    border-radius: 25px;
+    background-color: #fff;
+    font-size: 18px;
+    box-shadow: 5px 5px 10px hsl(240, 2%, 22%);
+}
+
+
+.btn:hover {
+    background-color: hsl(300, 69%, 71%);
+    transition: 0.3s;
+    color: #fff;
+}
+
+
+.rodape {
+    display: flex;
+    justify-content: end;
+    margin: 0 20px;
+    padding: 20px;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 15px;
+}
+
+.rodape .redes-sociais .fa-brands.fa-facebook-f,
+.fa-brands.fa-instagram,
+.fa-brands.fa-twitter {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    border: solid 1px #fff;
+}
+
+.rodape .redes-sociais i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape .redes-sociais .fa-brands.fa-facebook-f:hover,
+.fa-brands.fa-instagram:hover,
+.fa-brands.fa-twitter:hover {
+    color: hsl(300, 69%, 71%);
+    border: solid 1px hsl(300, 69%, 71%);
+    transition: 0.3s;
+}
