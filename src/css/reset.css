@@ -12,3 +12,7 @@ a{
 h2{
   font-family: "Poppins", sans-serif;
 }
+
+li{
+  list-style-type: none;
+}

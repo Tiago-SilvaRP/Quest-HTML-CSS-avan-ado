@@ -2,6 +2,8 @@ body {
     font-family: "Open Sans", sans-serif;
     height: 100vh;
     background: url(../images/bg-desktop.svg)no-repeat, hsl(257, 40%, 49%);
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .logo {
@@ -54,7 +56,7 @@ body {
     border-radius: 25px;
     background-color: #fff;
     font-size: 18px;
-    box-shadow: 5px 5px 10px hsl(240, 2%, 22%);
+    box-shadow: 5px 5px 10px hsl(240, 2%, 35%);
 }
 
 
